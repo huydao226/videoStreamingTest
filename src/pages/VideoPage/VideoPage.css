@@ -1,0 +1,26 @@
+.video-page-container {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 2rem;
+    margin-top: 8rem;
+  }
+  
+  .video-page-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .video-page-sidebar .h3 {
+    color: var(--white);
+  }
+  
+  .video-page-sidebar > .video-card-container {
+    margin-bottom: 1.25rem;
+  }
+  
+  .page-title {
+    color: var(--white);
+  }

@@ -1,0 +1,103 @@
+.container-video-card {
+    max-width: 30rem;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    background-color: var(--gray-mild);
+    border-radius: 0.5rem;
+  }
+  
+  .video-description {
+    gap: 1rem;
+    text-align: left;
+    padding: 1.2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .container-video-card .icon {
+    position: absolute;
+    top: 1rem;
+    right: 0.4rem;
+    cursor: pointer;
+    background-color: var(--white);
+    padding: 0.2rem;
+    border-radius: 50%;
+  }
+
+  i.material-icons.icon {
+    color: var(--red-dominant);
+    width: 2.4rem;
+    height: 2.5rem;
+    font-size: 2rem;
+    position: absolute;
+    left: 26.5rem;
+  }
+  
+  .video-thumbnail {
+    width: 100%;
+    object-fit:cover;
+  }
+  
+  .hamburger {
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: var(--main-color);
+  }
+  
+  .container-modal-opt {
+    position: relative;
+  }
+  
+  .container-modal-opt .submenu-modal {
+    position: absolute;
+    right: 0rem;
+    z-index: 1;
+    border: solid 2px var(--main-color);
+    background-color: var(--gray-main);
+    color: var(--white);
+  }
+  
+  .video-title {
+    color: var(--gray-light);
+    padding-right: 1rem;
+  }
+
+  .video-title > .link-video:hover {
+    color: var(--main-color);
+  }
+  
+  .video-details {
+    color: var(--gray-light);
+  }
+
+
+
+
+
+    /* .video-cta {
+    width: 100%;
+    background-color: red;
+    height: 40vh;
+    margin-top: 0.5rem;
+    text-align: center;
+  } */
+  
+  /* .video-cta .btn-text {
+    background-color: transparent;
+    color: var(--white);
+    padding-top: 0.4rem;
+    cursor: pointer;
+  } */
+  

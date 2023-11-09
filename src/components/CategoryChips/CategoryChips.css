@@ -1,0 +1,26 @@
+.container-chips {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.list-chips {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding-inline-start: 0;
+}
+
+.chips {
+  display: inline-block;
+  border: solid 1px var(--gray-mild);
+  border-radius: 3rem;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.active {
+  background-color: var(--main-color);
+  color: var(--gray-main);
+}
