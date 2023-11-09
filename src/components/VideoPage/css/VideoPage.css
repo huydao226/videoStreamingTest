@@ -61,6 +61,7 @@
   }
   
   .video-player-container .h2 {
+    padding-top: 10px;
     color: var(--white);
     text-align: left;
     font-weight: 900;
